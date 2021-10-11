@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_191" class="java.beans.XMLDecoder">
+ <object class="metier.Service" id="Service0">
+  <void property="employes">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="metier.Employe">
+      <void property="nom">
+       <string>Paul</string>
+      </void>
+      <void property="prenom">
+       <string>Auchon</string>
+      </void>
+      <void property="service">
+       <object idref="Service0"/>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="metier.Employe">
+      <void property="nom">
+       <string>Ali</string>
+      </void>
+      <void property="prenom">
+       <string>Gathor</string>
+      </void>
+      <void property="service">
+       <object idref="Service0"/>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="metier.Employe">
+      <void property="nom">
+       <string>Annie</string>
+      </void>
+      <void property="prenom">
+       <string>Zhette</string>
+      </void>
+      <void property="service">
+       <object idref="Service0"/>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="libelle">
+   <string>Comptabilité</string>
+  </void>
+</object>
+</java>
